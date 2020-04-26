@@ -21,15 +21,17 @@ body {
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
-    height: 150vh;
+    height: 100vh;
 }
 
 .footer {
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
     font-weight: bold;
+    background: radial-gradient(circle, rgba(245,246,247,1) 0%, rgba(129,26,23,1) 100%);
+
 
 }
 
