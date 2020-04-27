@@ -3,24 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Css link -->
     <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!-- Google Fonts link -->
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bangers&family=Open+Sans&family=Oswald&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!-- Font Awesome link -->
     <script src="https://kit.fontawesome.com/8a7e0c6166.js" crossorigin="anonymous"></script>
+
     <title>Cole Tadashi Joko</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="navbar-nav">
+        <div class="navbar-nav">
             <a class="nav-item nav-link" href="index.html"><i class="fas fa-home"> Home </i></a>
             <a class="nav-item nav-link" href="projects.html"><i class="fab fa-old-republic"> Projects </i></a>
             <a class="nav-item nav-link" href="about.html"><i class="fas fa-fingerprint"> About Me </i> </a>
             <a class="nav-item nav-link active" href="contact.html"><i class="far fa-id-card"> Contact </i> <span class="sr-only">(current)</span></a>
+        </div>
+    </nav>
+
+    <main class="contact">
+        <div class="contact-form">
+            <form action="https://formspree.io/mwkrepwq" method="POST">
+                <div class="contact-txt">
+                    <label>Your name :</label>
+                    <input type="text" name="name" placeholder="Enter your name">
+                </div>
+                <div class="contact-txt">
+                    <label>Your email :</label>
+                    <input type="email" name="_replyto" placeholder="Enter your email">
+                </div>
+                <label>
+                    Your message:
+                    <textarea name="message"></textarea>
+                </label>
+                <button class="button">Submit</button>
+            </form>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="footer-container">
+          <div class="footer-left">
+            Full-Stack student <br>
+            Salt Lake City
+          </div>
+          <div class="footer-right">
+            version 1.1
           </div>
         </div>
-      </nav>
-      <main>
-           
-      </main>
+      </footer>
+
+<script>
+</script>
 </body>
 </html>
