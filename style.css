@@ -4,12 +4,17 @@
 
 .about-container { 
     background-color: rgb(255, 255, 255, 1);
-    width: 600px;
+    width: auto;
     margin: 50px auto;
     padding: 20px;
     border-radius: 20px;
     display: flex;
     box-shadow: #000000 0 0 10px 5px;
+    justify-content: space-evenly;
+}
+
+.about-txt {
+    padding: 10px;
 }
 
 
@@ -86,13 +91,13 @@ body {
 
 img {
     width: 300px;
-    padding: 10px;
+    box-shadow: #000000 0 0 5px 5px;
 }
 
 input {
     border: none;
     border-bottom: #831E1B solid 2px;
-    width: 500px;
+    width: auto;
 }
 
 .name {
@@ -128,7 +133,7 @@ input {
 }
 
 textarea {
-    width: 500px;
+    width: auto;
 }
 
 
