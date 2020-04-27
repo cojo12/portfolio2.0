@@ -110,6 +110,8 @@ input {
     border: none;
     border-bottom: #831E1B solid 2px;
     width: auto;
+    background-color:rgb(255, 255, 255, .1);
+
 }
 
 .name {
