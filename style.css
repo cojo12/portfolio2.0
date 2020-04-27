@@ -2,6 +2,7 @@
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    font-family: 'Muli', sans-serif;
 }
 
 .about-container {
@@ -62,6 +63,8 @@ body {
 .contact {
     margin: auto;
     padding: 20px;
+    font-family: 'Muli', sans-serif;
+
 }
 
 .contact-form {
@@ -137,6 +140,7 @@ input {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
     padding: 20px;
+    font-family: 'Muli', sans-serif;
 }
 
 .project-img {
