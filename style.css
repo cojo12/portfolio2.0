@@ -5,11 +5,11 @@
 .about-container { 
     background-color: rgb(255, 255, 255, 1);
     width: 600px;
-    margin: auto;
+    margin: 50px auto;
     padding: 20px;
-    border: #831E1B solid ;
     border-radius: 20px;
     display: flex;
+    box-shadow: #000000 0 0 10px 5px;
 }
 
 
@@ -53,11 +53,11 @@ body {
 .contact-form {
     background-color:rgb(255, 255, 255, 1);
     width: 600px;
-    margin: auto;
+    margin: 50px auto;
     padding: 20px;
-    border: #831E1B solid ;
     border-radius: 20px;
     display: flex;
+    box-shadow: #000000 0 0 10px 5px;
 }
 
 .contact-txt {
@@ -95,7 +95,7 @@ input {
 .name {
     font-family: 'Permanent Marker', cursive;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .navbar {
@@ -105,5 +105,24 @@ input {
     font-family: 'Vollkorn', serif;
 }
 
-textarea {
+.social {
+    background-color:rgb(255, 255, 255, 1);
+    font-size: 60px;
+    flex-direction: row;
+    padding: 15px 50px;
+    border: black solid 2px;
+    margin: 50px auto;
+    box-shadow: #000000 0 0 10px 5px;
+
 }
+
+.social-container {
+    display: flex;
+}
+
+.social-txt {
+    font-size: 10px;
+}
+
+
+
