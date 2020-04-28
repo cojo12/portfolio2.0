@@ -141,6 +141,8 @@ input {
     grid-gap: 20px;
     padding: 20px;
     font-family: 'Muli', sans-serif;
+    margin: auto;
+
 }
 
 .project-img {
