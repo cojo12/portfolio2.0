@@ -5,6 +5,10 @@
     font-family: 'Muli', sans-serif;
 }
 
+.about-card {
+    text-align: center;
+}
+
 .about-container {
     background-color:rgb(255, 255, 255, .8);
     border: black solid 1px;
@@ -13,7 +17,10 @@
     grid-template-rows: 1fr 1fr;
     grid-gap: 20px;
     padding: 20px;
+}
 
+.about-title {
+    text-align: center;
 }
 
 .about-txt {
@@ -134,7 +141,6 @@ input {
     border-bottom: #831E1B solid 2px;
     width: auto;
     background-color:rgb(255, 255, 255, .1);
-
 }
 
 .name {
@@ -173,7 +179,6 @@ input {
     padding: 20px;
     font-family: 'Muli', sans-serif;
     margin: auto;
-
 }
 
 .project-img {
